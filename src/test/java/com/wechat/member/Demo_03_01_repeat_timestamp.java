@@ -4,9 +4,6 @@ import com.wechat.apiobject.TokenHelper;
 import com.wechat.utils.FakerUtils;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
-
-import javax.print.DocFlavor;
-
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
