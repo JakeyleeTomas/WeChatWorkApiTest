@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * @date 2020/12/25 0:12
  */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class Member {
+public class Demo_03_01_repeat_timestamp {
     static String accessToken;
     @BeforeAll
     public static void setUp(){

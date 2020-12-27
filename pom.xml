@@ -7,10 +7,6 @@
     <groupId>com.guji</groupId>
     <artifactId>WeChatWorkApiTest</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <!--    <properties>-->
-    <!--        <aspectj.version>1.8.10</aspectj.version>-->
-    <!--    </properties>-->
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -18,54 +14,32 @@
     </properties>
 
     <dependencies>
-        <!--        <dependency>-->
-        <!--            <groupId>org.junit.jupiter</groupId>-->
-        <!--            <artifactId>junit-jupiter-api</artifactId>-->
-        <!--            <version>5.6.2</version>-->
-        <!--            <scope>test</scope>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.junit.jupiter</groupId>-->
-        <!--            <artifactId>junit-jupiter-engine</artifactId>-->
-        <!--            <version>5.6.2</version>-->
-        <!--        </dependency>-->
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.7.0</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>4.3.3</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>io.rest-assured</groupId>-->
-        <!--            <artifactId>json-path</artifactId>-->
-        <!--            <version>3.0.3</version>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>io.qameta.allure</groupId>-->
-        <!--            <artifactId>allure-junit5</artifactId>-->
-        <!--            <version>2.13.2</version>-->
-        <!--            <scope>test</scope>-->
-        <!--        </dependency>-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.30</version>
         </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>org.junit.jupiter</groupId>-->
-        <!--            <artifactId>junit-jupiter-params</artifactId>-->
-        <!--            <version>5.7.0</version>-->
-        <!--            <scope>test</scope>-->
-        <!--        </dependency>-->
-
         <dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
+            <artifactId>junit-jupiter-params</artifactId>
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-junit5</artifactId>
+            <artifactId>allure-java-commons</artifactId>
             <version>2.13.2</version>
             <scope>test</scope>
         </dependency>
