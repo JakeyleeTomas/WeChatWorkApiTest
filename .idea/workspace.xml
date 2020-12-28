@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6988fad7-558d-403a-8cf7-4322b6abfbf2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/91c32856-8829-4fd2-bf58-436129b866d9-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ab5340c4-a4a2-4421-b14d-605ac11096c0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/da776b96-2071-42ff-bd62-ad21a074526b-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_02_repeat_evnclear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data/createDepartment.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/junit-platform.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/WeChatWorkApiTest.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/apiobject/DepartMentObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/apiobject/MemberObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/apiobject/TokenHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_01_base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_02_separate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_03_01_repeat_timestamp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_03_02_repeat_evnclear.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_04_01_layer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_05_param_demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_05_softassert.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_06_02_concurent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_06_1_thread_creatdepartment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/department/Demo_07_1_allure_description.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/member/Demo_01_base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/member/Demo_03_01_repeat_timestamp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/task/EvnHelperTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/wechat/utils/FakerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_02_repeat_evnclear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_02_repeat_evnclear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_01_base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_01_base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_02_separate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_02_separate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_01_repeat_timestamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_01_repeat_timestamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test.log" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_01_repeat_timestamp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="113" selection-start-line="113" selection-end-line="113" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_01_repeat_timestamp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_02_repeat_evnclear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_04_01_layer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-714">
+              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_05_param_demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-209">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_02_repeat_evnclear.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_01_base.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-918">
+              <caret line="18" column="35" selection-start-line="18" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_02_separate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1246">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_01_base.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="18" column="36" selection-start-line="18" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_02_separate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\Program\WorkSpace_Idea\WeChatWorkApiTest</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo1Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_01_base_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_repeat_timestamp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_02_separate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/apiobject/TokenHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/apiobject/DepartMentObject.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/createDepartment.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/task/EvnHelperTask.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_06_1_thread_creatdepartment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_05_softassert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_05_param_demo_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_07_1_allure_description.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_06_02_concurent.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_05_param_demo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_01_base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/user/Uers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/user/Menber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/user/Member.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_01_repeat_timestamp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Member.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Member2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/apiobject/MemberObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_04_01_layer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_02_base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/separate.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_01_base.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_02_separate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_02_repeat_evnclear.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_01_repeat_timestamp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_02_repeat_evnclear.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\Program\apache-maven-3.5.2\repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\Program\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WeChatWorkApiTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WeChatWorkApiTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WeChatWorkApiTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-102" />
+    <option name="y" value="1" />
+    <option name="width" value="1088" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WeChatWorkApiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeChatWorkApiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="wechatworkapitest" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Program\WorkSpace_Idea\WeChatWorkApiTest\src\test\java\com\wechat\member" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wechat.member" />
+      <recent name="com.wechat.apiobject" />
+      <recent name="com.wechat.department" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Program\WorkSpace_Idea\WeChatWorkApiTest\src\test\java\com\wechat\department" />
+      <recent name="E:\Program\WorkSpace_Idea\WeChatWorkApiTest\src\main\resources" />
+      <recent name="E:\Program\WorkSpace_Idea\WeChatWorkApiTest\src\test\java\com\wechat\task" />
+      <recent name="E:\Program\WorkSpace_Idea\WeChatWorkApiTest\src\main\resources\data" />
+      <recent name="E:\Program\WorkSpace_Idea\WeChatWorkApiTest\src\test\java\com\wechat\utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Demo_03_02_repeat_evnclear.getDepMember (1)">
+    <configuration name="Demo_02_separate.deleteMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeChatWorkApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wechat.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wechat.member" />
+      <option name="MAIN_CLASS_NAME" value="com.wechat.member.Demo_02_separate" />
+      <option name="METHOD_NAME" value="deleteMember" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_02_separate.updateMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeChatWorkApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wechat.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wechat.member" />
+      <option name="MAIN_CLASS_NAME" value="com.wechat.member.Demo_02_separate" />
+      <option name="METHOD_NAME" value="updateMember" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_03_02_repeat_evnclear.createMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeChatWorkApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wechat.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wechat.member" />
+      <option name="MAIN_CLASS_NAME" value="com.wechat.member.Demo_03_02_repeat_evnclear" />
+      <option name="METHOD_NAME" value="createMember" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_03_02_repeat_evnclear.getDepMember (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeChatWorkApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wechat.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wechat.member" />
+      <option name="MAIN_CLASS_NAME" value="com.wechat.member.Demo_03_02_repeat_evnclear" />
+      <option name="METHOD_NAME" value="getDepMember" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo_03_02_repeat_evnclear.getDepMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeChatWorkApiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wechat.department.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wechat.department" />
+      <option name="MAIN_CLASS_NAME" value="com.wechat.department.Demo_03_02_repeat_evnclear" />
+      <option name="METHOD_NAME" value="getDepMember" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo_03_02_repeat_evnclear.getDepMember (1)" />
+        <item itemvalue="JUnit.Demo_03_02_repeat_evnclear.getDepMember" />
+        <item itemvalue="JUnit.Demo_03_02_repeat_evnclear.createMember" />
+        <item itemvalue="JUnit.Demo_02_separate.deleteMember" />
+        <item itemvalue="JUnit.Demo_02_separate.updateMember" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6988fad7-558d-403a-8cf7-4322b6abfbf2" name="Default Changelist" comment="" />
+      <created>1608418799064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608418799064</updated>
+      <workItem from="1608418803253" duration="1470000" />
+      <workItem from="1608420310859" duration="347000" />
+      <workItem from="1608420692511" duration="4324000" />
+      <workItem from="1608440098997" duration="1587000" />
+      <workItem from="1608443671464" duration="1707000" />
+      <workItem from="1608445484668" duration="9178000" />
+      <workItem from="1608455061416" duration="3436000" />
+      <workItem from="1608476498652" duration="5592000" />
+      <workItem from="1608527035966" duration="3354000" />
+      <workItem from="1608554941930" duration="4915000" />
+      <workItem from="1608612588702" duration="4488000" />
+      <workItem from="1608642377107" duration="13279000" />
+      <workItem from="1608756047787" duration="8563000" />
+      <workItem from="1608823223999" duration="953000" />
+      <workItem from="1608824219520" duration="5439000" />
+      <workItem from="1608829887296" duration="394000" />
+      <workItem from="1608903896336" duration="440000" />
+      <workItem from="1608904379645" duration="614000" />
+      <workItem from="1608932065909" duration="4822000" />
+      <workItem from="1608937704585" duration="10044000" />
+      <workItem from="1608965227598" duration="7858000" />
+      <workItem from="1608973454968" duration="3138000" />
+      <workItem from="1609027657536" duration="16820000" />
+      <workItem from="1609069748295" duration="4714000" />
+      <workItem from="1609103429276" duration="1926000" />
+      <workItem from="1609106095910" duration="3955000" />
+      <workItem from="1609159648740" duration="6545000" />
+    </task>
+    <task id="LOCAL-00001" summary="补充场景">
+      <created>1609048355050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609048355050</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1228">
+      <created>1609107365754</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609107365754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Demo_02_separate_createMenber - 2020.12.28 at 06h 29m 46s.xml">
+      <configuration name="Demo_02_separate.createMenber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_03_01_repeat_timestamp - 2020.12.28 at 06h 32m 59s.xml">
+      <configuration name="Demo_03_01_repeat_timestamp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_02_separate_findMember - 2020.12.28 at 06h 43m 03s.xml">
+      <configuration name="Demo_02_separate.findMember" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_02_separate_findMember - 2020.12.28 at 06h 45m 22s.xml">
+      <configuration name="Demo_02_separate.findMember" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_02_separate_updateMember - 2020.12.28 at 06h 47m 40s.xml">
+      <configuration name="Demo_02_separate.updateMember" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_02_separate_deleteMember - 2020.12.28 at 06h 49m 31s.xml">
+      <configuration name="Demo_02_separate.deleteMember" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_03_02_repeat_evnclear_createMember - 2020.12.29 at 06h 22m 52s.xml">
+      <configuration name="Demo_03_02_repeat_evnclear.createMember" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_03_02_repeat_evnclear_getDepMember - 2020.12.29 at 06h 32m 21s.xml">
+      <configuration name="Demo_03_02_repeat_evnclear.getDepMember" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_03_02_repeat_evnclear_getDepMember_(1) - 2020.12.29 at 06h 39m 45s.xml">
+      <configuration name="Demo_03_02_repeat_evnclear.getDepMember (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Demo_03_02_repeat_evnclear_getDepMember_(1) - 2020.12.29 at 06h 40m 37s.xml">
+      <configuration name="Demo_03_02_repeat_evnclear.getDepMember (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="129902000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29617575" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844037" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.83482504" visible="true" weight="0.21284404" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.06972477" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32844037" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.68185514" weight="0.2623853" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42201835" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31814483" side_tool="true" weight="0.6183486" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49959317" weight="0.5504587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.18388934" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3295362" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43531325" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844037" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18532111" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.14311926" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32844037" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42201835" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32844037" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.06972477" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.20504475" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3295362" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="补充场景" />
+    <MESSAGE value="1228" />
+    <option name="LAST_COMMIT_MESSAGE" value="1228" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WeChatWorkApiTest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/1e26815f-6ac3-49ea-93dc-545bbc553a83-container.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo1Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="89" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/WeChatWorkApiTest/WeChatWorkApiTest/src/test/java/com/wechat/department/Demo_04_layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../apache-maven-3.5.2/repo/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar!/org/junit/jupiter/api/Assertions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="572" column="23" selection-start-line="572" selection-start-column="23" selection-end-line="572" selection-end-column="23" />
+          <folding>
+            <element signature="e#19260#19261#0" expanded="true" />
+            <element signature="e#19319#19320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/utils/FakerUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../apache-maven-3.5.2/repo/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../apache-maven-3.5.2/repo/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar!/org/junit/jupiter/params/provider/CsvFileSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/createDepartment.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/junit-platform.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/task/EvnHelperTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../apache-maven-3.5.2/repo/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_05_softassert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_06_02_concurent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="1" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_06_1_thread_creatdepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/apiobject/DepartMentObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/apiobject/TokenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Member2.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_07_1_allure_description.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/apiobject/MemberObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_02_separate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_01_base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="36" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_01_repeat_timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_05_param_demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_04_01_layer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_01_base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="18" column="35" selection-start-line="18" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_02_separate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1246">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/department/Demo_03_02_repeat_evnclear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_01_repeat_timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wechat/member/Demo_03_02_repeat_evnclear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

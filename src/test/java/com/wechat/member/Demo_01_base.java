@@ -2,6 +2,8 @@ package com.wechat.member;
 
 import io.restassured.response.Response;
 import org.junit.jupiter.api.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -14,6 +16,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class Demo_01_base {
+    private static  final Logger logger = LoggerFactory.getLogger(Demo_01_base.class);
+
     static String accessToken;
     @BeforeAll
     public static void setup(){
@@ -23,6 +27,7 @@ public class Demo_01_base {
             .param("corpid",corpid)
             .param("corpsecret",corpsecret).get("https://qyapi.weixin.qq.com/cgi-bin/gettoken")
             .then().log().all().extract().response().path("access_token");
+        logger.info(accessToken);
     }
 
     @Test

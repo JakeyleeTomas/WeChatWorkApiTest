@@ -13,15 +13,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * @author guji
  * @description
- * 创建成员必须要有5个入参，api文档上显示必填参数只有2个是错误的，估计没有更新导致的，注意json格式中的值是要包含引号的
- * 1.基础脚本，分别执行了，创建，修改，查询，删除接口并进行了校验
- * 2.进行了优化，方法之间进行了解耦，每个方法可独立运行
- * 3.进行了优化，使用时间戳命名法避免入参重复造成的报错
- *
- * @date 2020/12/25 0:12
+ * @date 2020/12/28 6:50
  */
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class Demo_03_01_repeat_timestamp {
+public class Demo_03_02_repeat_evnclear {
     private static  final Logger logger = LoggerFactory.getLogger(Demo_03_01_repeat_timestamp.class);
     static String accessToken;
     @BeforeAll
@@ -29,7 +23,6 @@ public class Demo_03_01_repeat_timestamp {
         accessToken= TokenHelper.getAccessToken();
         logger.info(accessToken);
     }
-
     @Order(1)
     @Test
     @DisplayName("创建成员")
@@ -41,8 +34,8 @@ public class Demo_03_01_repeat_timestamp {
                 "   \"userid\": \""+ userid +"\",\n" +
                 "   \"name\": \""+ name +"\",\n" +
                 "   \"mobile\": \""+ mobile +"\",\n" +
-                "   \"department\": [1],\n" +
-                "   \"main_department\": 1\n" +
+                "   \"department\": [2],\n" +
+                "   \"main_department\": 2\n" +
                 "}";
         Response response = given().log().all().contentType("application/json").when().body(body).post("https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token="+accessToken).then().log().all().extract().response();
         assertEquals("0",response.path("errcode").toString());
@@ -58,8 +51,8 @@ public class Demo_03_01_repeat_timestamp {
                 "   \"userid\": \"" + userid + "\",\n" +
                 "   \"name\": \"" + name + "\",\n" +
                 "   \"mobile\": \"" + mobile + "\",\n" +
-                "   \"department\": [1],\n" +
-                "   \"main_department\": 1\n" +
+                "   \"department\": [2],\n" +
+                "   \"main_department\": 2\n" +
                 "}";
         given().log().all().contentType("application/json").when().body(body).post("https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token="+accessToken).then().log().all().extract().response();
         Response response = given().log().all().when().get("https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=" + accessToken + "&userid=" + userid).then().log().all().extract().response();
@@ -77,16 +70,16 @@ public class Demo_03_01_repeat_timestamp {
                 "   \"userid\": \"" + userid + "\",\n" +
                 "   \"name\": \"" + name + "\",\n" +
                 "   \"mobile\": \"" + mobile + "\",\n" +
-                "   \"department\": [1],\n" +
-                "   \"main_department\": 1\n" +
+                "   \"department\": [2],\n" +
+                "   \"main_department\": 2\n" +
                 "}";
         given().log().all().contentType("application/json").when().body(body).post("https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token="+accessToken).then().log().all().extract().response();
         String updateBody ="{\n" +
                 "    \"userid\": \""+userid+"\",\n" +
                 "    \"name\": \""+name+"\",\n" +
                 "    \"mobile\": \"+86 13800000000\",\n" +
-                "    \"department\": 1,\n" +
-                "    \"main_department\": 1\n" +
+                "    \"department\": 2,\n" +
+                "    \"main_department\": 2\n" +
                 "}";
         Response response = given().contentType("application/json").when().body(updateBody).post("https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token="+accessToken).then().log().all().extract().response();
         assertEquals("0",response.path("errcode").toString());
@@ -103,14 +96,27 @@ public class Demo_03_01_repeat_timestamp {
                 "   \"userid\": \"" + userid + "\",\n" +
                 "   \"name\": \"" + name + "\",\n" +
                 "   \"mobile\": \"" + mobile + "\",\n" +
-                "   \"department\": [1],\n" +
-                "   \"main_department\": 1\n" +
+                "   \"department\": [2],\n" +
+                "   \"main_department\": 2\n" +
                 "}";
         given().log().all().contentType("application/json").when().body(body).post("https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token="+accessToken).then().log().all().extract().response();
         Response response = given().log().all().when().get("https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token="+accessToken+"&userid="+userid).then().log().all().extract().response();
         assertEquals("0",response.path("errcode").toString());
     }
 
+    @DisplayName("获取部门成员")
+    @Order(5)
+    @Test
+    void getDepMember(){
+        Response getDepMemberResponse = given().when().get("https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=" + accessToken + "&department_id=2")
+                .then().log().all().extract().response();
+        assertEquals("0",getDepMemberResponse.path("errcode").toString());
 
+    }
+
+    @BeforeEach
+    void envClear(){
+//        批量删除成员
+    }
 
 }
